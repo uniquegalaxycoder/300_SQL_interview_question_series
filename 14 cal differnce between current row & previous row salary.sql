@@ -3,7 +3,7 @@ create table emp (
   empName varchar(20),
   emp_Dept varchar(20),
   joiningDate date,
-  Salary int
+  Salary bigint
 );
 
 insert into emp (empId, empName, emp_Dept, joiningDate, Salary) VALUES
