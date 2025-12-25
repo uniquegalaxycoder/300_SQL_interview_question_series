@@ -53,4 +53,4 @@ select
 from emp as e1 left join emp as e2 
 on e2.empId = ( select max(empId) from emp where e1.empId > empId)
 ) as t
-order by empId
+order by empId ;
