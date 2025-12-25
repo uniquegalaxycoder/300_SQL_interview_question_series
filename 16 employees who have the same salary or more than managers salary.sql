@@ -11,7 +11,7 @@ create table emp (
 
 insert into emp (empId, empName, emp_Dept, joiningDate,manager_id, Salary) VALUES
 (1, 'Bob', 'IT', '2024-11-01',5, 65670 ),
-(2, 'Charli', 'Tech', '2022-01-01',6, 65000),
+(2, 'Charli', 'Tech', '2022-01-01',6, 45000),
 (3, 'Mona', 'Analytics', '2022-01-10',5, 63000),
 (4, 'Robert', 'Finance', '2023-11-20',2, 56890),
 (5, 'Louis', 'Data Engineering', '2022-01-20',11, 76000),
@@ -35,7 +35,7 @@ left join
 on 
   e1.manager_id = e2.empId
 where 
-  e1.Salary > e2.Salary
+  e1.Salary >= e2.Salary
 order by empId;
 
 
