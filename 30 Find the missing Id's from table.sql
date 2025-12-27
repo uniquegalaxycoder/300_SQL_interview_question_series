@@ -73,3 +73,5 @@ on
   a.num = b.id
 where b.id is null ;
 
+
+
