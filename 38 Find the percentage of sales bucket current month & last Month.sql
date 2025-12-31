@@ -126,6 +126,23 @@ from (
 ) as t ;
 
 
+"""
+  Output =>
+  
++------------------+----------+--------------+--------------+---------------+----------------+
+| product_category | month    | Total Orders | Quntity Sold | Gross Revenue | growth_bucket  |
++------------------+----------+--------------+--------------+---------------+----------------+
+| Electronics      | January  |            3 |            7 |          4650 |                |
+| Electronics      | February |            2 |            9 |         11800 | Sale Increased |
+| Electronics      | March    |            5 |            7 |          5666 | sale Drop      |
+| Fashion          | January  |            1 |           10 |          6500 |                |
+| Fashion          | February |            2 |            4 |          6800 | Sale Increased |
+| Fashion          | March    |            4 |            6 |         11436 | Sale Increased |
+| Sport            | January  |            4 |           12 |         10166 |                |
+| Sport            | February |            5 |           13 |         17120 | Sale Increased |
+| Sport            | March    |            1 |            2 |          2301 | sale Drop      |
++------------------+----------+--------------+--------------+---------------+----------------+
+  """
 
 
 
