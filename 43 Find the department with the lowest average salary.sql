@@ -30,7 +30,8 @@ from employee
 group by 
    emp_department
 order by 
-   avg(salary) asc ;
+   avg(salary) asc
+limit 1 ;
 
 
 
