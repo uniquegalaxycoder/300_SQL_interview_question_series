@@ -4,7 +4,7 @@
  BUSINESS CASE :
    To find orders containing more than one product, we focus on grouping by the order
    identifier and using a filter on the aggregated results. This is a common task in retail analytics
-   to distinguish "bulk" or "complex" orders from simple single-item purchases.
+   to distinguish 'bulk' or 'complex' orders from simple single-item purchases.
 """
 
 CREATE TABLE order_items (
